@@ -1,5 +1,15 @@
 # Algoritmos
 
+Complexidade de tempo.
+
+O(1) é constante, o que significa que a complexidade do tempo não muda mesmo com diferenças no tamanho dos dados.
+
+- search[0]
+
+O(n)é linear, o que significa que a complexidade de tempo se correlaciona com o tamanho da estrutura de dados.
+
+- for(arr[i])
+
 ## 1. Bubblesort O(n^2)
 
 Bubblesort é um algoritmo de ordenação simples que funciona trocando repetidamente os elementos adjacentes se eles estiverem na ordem errada. Sua complexidade de tempo é O(n^2) no pior caso.
@@ -26,3 +36,12 @@ Usado para:
 
 Listas ordenadas.
 Quando a eficiência é crucial.
+
+## 4. Ordenação por seleção O(n^2)
+
+Selection Sort é um algoritmo que pega uma matriz não ordenada de números e a cada iteração coloca o menor número no começo de uma lista não ordenada. O algoritmo funciona repetidamente selecionando o menor elemento da parte não ordenada e movendo-o para o final da parte ordenada. Sua complexidade de tempo é O(n^2) no pior caso.
+
+Usado para:
+
+Listas pequenas.
+Quando a memória extra é uma preocupação, pois é um algoritmo in-place(Um algoritmo in-place é um algoritmo que não precisa de um espaço extra e produz uma saída na mesma memória que contém os dados, transformando a entrada "in-place).
