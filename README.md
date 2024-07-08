@@ -1,12 +1,12 @@
 # Algoritmos
 
-Complexidade de tempo.
+### Complexidade de tempo.
 
-O(1) é constante, o que significa que a complexidade do tempo não muda mesmo com diferenças no tamanho dos dados.
+_O(1) é constante, o que significa que a complexidade do tempo não muda mesmo com diferenças no tamanho dos dados._
 
 - search[0]
 
-O(n)é linear, o que significa que a complexidade de tempo se correlaciona com o tamanho da estrutura de dados.
+_O(n)é linear, o que significa que a complexidade de tempo se correlaciona com o tamanho da estrutura de dados._
 
 - for(arr[i])
 
@@ -16,7 +16,7 @@ Bubblesort é um algoritmo de ordenação simples que funciona trocando repetida
 
 Usado para:
 
-Pequenas listas de elementos.
+Pequenas listas de elementos.<br>
 Quando a simplicidade do código é mais importante que a eficiência.
 
 ## 2. Pesquisa Linear O(n)
@@ -25,7 +25,7 @@ A pesquisa linear é um algoritmo simples que verifica cada elemento de uma list
 
 Usado para:
 
-Listas pequenas ou não ordenadas.
+Listas pequenas ou não ordenadas.<br>
 Situações onde a simplicidade é crucial.
 
 ## 3. Pesquisa Binária O(log n)
@@ -34,7 +34,7 @@ A pesquisa binária é um algoritmo utilizado para encontrar a posição de um e
 
 Usado para:
 
-Listas ordenadas.
+Listas ordenadas.<br>
 Quando a eficiência é crucial.
 
 ## 4. Ordenação por seleção O(n^2)
@@ -43,5 +43,5 @@ Selection Sort é um algoritmo que pega uma matriz não ordenada de números e a
 
 Usado para:
 
-Listas pequenas.
-Quando a memória extra é uma preocupação, pois é um algoritmo in-place(Um algoritmo in-place é um algoritmo que não precisa de um espaço extra e produz uma saída na mesma memória que contém os dados, transformando a entrada "in-place).
+Listas pequenas.<br>
+Quando a memória extra é uma preocupação, pois é um algoritmo in-place (Um algoritmo in-place é um algoritmo que não precisa de um espaço extra e produz uma saída na mesma memória que contém os dados, transformando a entrada "in-place).
